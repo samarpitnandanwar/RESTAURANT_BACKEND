@@ -1,6 +1,6 @@
 import app from "./app.js";
 
-app.listen(process.env.BACKEND_URL, ()=>{
-    console.log(`Server Running On URL ${process.env.BACKEND_URL} `);
+app.listen(process.env.PORT, ()=>{
+    console.log(`Server Running On PORT ${process.env.PORT} `);
 });
 
